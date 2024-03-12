@@ -3,16 +3,20 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ProductController } from './adapters/controllers/products.controller';
+import { GetProductsUseCase } from './domain/usecases/get-products-usecase';
 
 @NgModule({
-  declarations: [
-    AppComponent
+  declarations: [AppComponent],
+  imports: [BrowserModule, AppRoutingModule],
+  providers: [
+    {
+      provide: ProductController,
+      useClass: ProductController,
+      deps: [GetProductsUseCase],
+    },
+    { provide: GetProductsUseCase, useClass: GetProductsUseCase, deps: [] },
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
-  providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -1,0 +1,1919 @@
+{
+    "store": {
+        "id_template_store": 523118,
+        "id_store": 1,
+        "couple_id": 1140479,
+        "title": "Lista de presentes virtuais",
+        "status": true,
+        "products_photo": true,
+        "template_store_data": {
+            "purchased": 1,
+            "accepted": 1,
+            "show_order": 0,
+            "show_category": 0,
+            "show_quota_info": 1,
+            "ordination": 0,
+            "sell_card": true
+        }
+    },
+    "pagination": {
+        "current_page": 1,
+        "initial": 0,
+        "offset": 8,
+        "product_count": 57,
+        "page_count": 8
+    },
+    "products": [
+        {
+            "id": 3457734,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Aparelho de Jantar 42 peças",
+            "image": "https://lh3.googleusercontent.com/m50YUG0vZE_6fjogDZZgHuvzzeEjVjInJuODmUT1S92gAdiOK_WaaoYtATcYiI2ujSFKP4SE8kB5rt-MNa8UIFSMGXKFS2PFp2CwL84fdaE=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 827.87,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3464873,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Ar Condicionado",
+            "image": "https://lh3.googleusercontent.com/VylxSJhDc5WMLkG3I9It6wbNOhMXW9n1BmAnQOqHBS_nNl1n-_ogmfc3Q1qbScODNJUCr3Jq4zdoIM5E39mGTqYgEI642gUIXN0Is9k9H_8G=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 4017.68,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457391,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Aspirador de Pó Vertical",
+            "image": "https://lh3.googleusercontent.com/QUy_-BuPbY8uESnKS1uQyMbihH3DiHG9z2SBUYJ5OHcvqoO734Z2lKMtMbNgNQyJHXEO2jWQKt4K-vLRIRvbJVfpwbDHHV746MZUKeIcLST7=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 772.75,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457432,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Batedeira Planetária",
+            "image": "https://lh3.googleusercontent.com/PlUvTIVpCv9ASRcRkwBLuJWPZNFTyZQOFVShhlRzD9bWLyg3nTyOjMH81z4wgaBonqKnO43eXEe_DfUQODXv10sd-bd6KPOoiNbrvdANF-cL=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 572.02,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458345,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Blender Mixer",
+            "image": "https://lh3.googleusercontent.com/0i1PI6vqvFivyqIDw2h7j46rGRcd3FeRN8mN_rPIHGMVCyoxqQdzpWjUsjwtFYPvDp3L_67uWD4-dxUhWIcjo7Epq2yCJXJYOO0-zaCJQXic=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 244.41,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3562764,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cafeteira Dolce Gusto",
+            "image": "https://lh3.googleusercontent.com/FoT29yiZqT6JPGe5IXt3L8T_4R8vleATQ3157SVDf2-25oXtMss5xyjhMmeDSiqnPV1YVeDhsYCjVZ5rxO-6jEWdUB_VkQSQUOIJKR3_fpVJ-Q=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 582.32,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457528,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cafeteira Elétrica Electrolux Digital",
+            "image": "https://lh3.googleusercontent.com/dlJjarthyGHs0CWrBSM03E7kJfxceVJg3yc4jrIycBevgABVVprbe6yD8v2sAFHAePxqZSLzK4rTiGHT348uc2UHlPVadNSY3-0fCcLX59hB=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 383.78,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554583,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cama Baú",
+            "image": "https://lh3.googleusercontent.com/a3DznVqaX4JyWIkC-kUaF4mMa8Lq78Zl8LbgOgtmhA4ESrwn5qXctetwFhvdHd8IU8ngGUS4nDDslasb_nXbZRwIgY17plJbRC5eancI7lo=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 3328.13,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457734,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Aparelho de Jantar 42 peças",
+            "image": "https://lh3.googleusercontent.com/m50YUG0vZE_6fjogDZZgHuvzzeEjVjInJuODmUT1S92gAdiOK_WaaoYtATcYiI2ujSFKP4SE8kB5rt-MNa8UIFSMGXKFS2PFp2CwL84fdaE=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 827.87,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3464873,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Ar Condicionado",
+            "image": "https://lh3.googleusercontent.com/VylxSJhDc5WMLkG3I9It6wbNOhMXW9n1BmAnQOqHBS_nNl1n-_ogmfc3Q1qbScODNJUCr3Jq4zdoIM5E39mGTqYgEI642gUIXN0Is9k9H_8G=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 4017.68,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457391,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Aspirador de Pó Vertical",
+            "image": "https://lh3.googleusercontent.com/QUy_-BuPbY8uESnKS1uQyMbihH3DiHG9z2SBUYJ5OHcvqoO734Z2lKMtMbNgNQyJHXEO2jWQKt4K-vLRIRvbJVfpwbDHHV746MZUKeIcLST7=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 772.75,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457432,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Batedeira Planetária",
+            "image": "https://lh3.googleusercontent.com/PlUvTIVpCv9ASRcRkwBLuJWPZNFTyZQOFVShhlRzD9bWLyg3nTyOjMH81z4wgaBonqKnO43eXEe_DfUQODXv10sd-bd6KPOoiNbrvdANF-cL=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 572.02,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458345,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Blender Mixer",
+            "image": "https://lh3.googleusercontent.com/0i1PI6vqvFivyqIDw2h7j46rGRcd3FeRN8mN_rPIHGMVCyoxqQdzpWjUsjwtFYPvDp3L_67uWD4-dxUhWIcjo7Epq2yCJXJYOO0-zaCJQXic=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 244.41,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3562764,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cafeteira Dolce Gusto",
+            "image": "https://lh3.googleusercontent.com/FoT29yiZqT6JPGe5IXt3L8T_4R8vleATQ3157SVDf2-25oXtMss5xyjhMmeDSiqnPV1YVeDhsYCjVZ5rxO-6jEWdUB_VkQSQUOIJKR3_fpVJ-Q=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 582.32,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457528,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cafeteira Elétrica Electrolux Digital",
+            "image": "https://lh3.googleusercontent.com/dlJjarthyGHs0CWrBSM03E7kJfxceVJg3yc4jrIycBevgABVVprbe6yD8v2sAFHAePxqZSLzK4rTiGHT348uc2UHlPVadNSY3-0fCcLX59hB=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 383.78,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554583,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cama Baú",
+            "image": "https://lh3.googleusercontent.com/a3DznVqaX4JyWIkC-kUaF4mMa8Lq78Zl8LbgOgtmhA4ESrwn5qXctetwFhvdHd8IU8ngGUS4nDDslasb_nXbZRwIgY17plJbRC5eancI7lo=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 3328.13,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457735,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cestos de Vime",
+            "image": "https://lh3.googleusercontent.com/DeBOgH-YBG4OcNWfSjMWr095tSV-TNQvPlWzj-cik2QUSJQVUSh4iE7X6DCbVnr57oyRX8IbKvU71OpXEu5Oij64dNptlJ3M9hfhRJWGGvce=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 156.01,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554630,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Coifa",
+            "image": "https://lh3.googleusercontent.com/9IXZclBxgkgy1zIVb1x3DD4Te7E8mF_rpb5OHN_ivHmKE3hf1I5h4PMERgpcXUPRu48c_hc7GTlVo8jsddsxWJb07zB4XGmncY5iymaYclk=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 1663.03,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554596,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Colcão King",
+            "image": "https://lh3.googleusercontent.com/P8N_qAgnr7jR6FctiiHhrfhAOqKmeESxvGP0yCfoBXL3ctne8khUiEWqJyx4FF7-fmaimaqnpdT8QTexZJOEyK_EpbJCEylYhxR0o83vJ0yh=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 4458.66,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465142,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Conjunto de Bowls Inox",
+            "image": "https://lh3.googleusercontent.com/il0tttLzGW8uFmNQMGIwfV4EUZwbRPNtrHPAdqvoZno_DcmULL3VPAaQAHkTUok2eIZz2XQgwEnbWLO04nrdrNlMnfGucKxxGYCCqKkbMzcb=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 258.97,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457738,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Conjunto Marinex 6 peças",
+            "image": "https://lh3.googleusercontent.com/7XllUvVjQsPkJaophIYLkJ2Go8v-God1MIid9_C5u4Qd5nE2wj2_2yamrlsPyWSfQY8_GVgc-5ivi4KLv3fZUkUrmjbuEQwv9wNAEzixKO_x=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 260.01,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458295,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Cooktop de Indução",
+            "image": "https://lh3.googleusercontent.com/s8mQD4Ew6XL94n5Y-niyLFCgpzujZQ1UKBMcdpK9Q4l3IuW5x_F4sp-R5JZMoY8plAFunKdV1Je7GcOM_tXZ-b9XUL_iazfK9MWcxP50TBM=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 2397.3,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465000,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Escorredor de Louça",
+            "image": "https://lh3.googleusercontent.com/ZiS474wb5VoC8eN1tx52SN38rsxRLU5S5TSRF3m1cpOEs6DdVF7f3_vC2K4P_zq2FTpsDXWo8snSvmuq4_RchYX44q2FLqcoxRLzD3d06PtO=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 166.41,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458324,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Espremedor de Fruta",
+            "image": "https://lh3.googleusercontent.com/aT-vN2JTm5igPxEc1VFWfj6PZyFPk9e_GRLXEc6n3hzaw_hyo4nMabv3_DzbQoRz1DjCrhGlmVoVpnBVln6lxvBWt_5fGyHJzNjNmGfOxOU=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 203.85,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457713,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Faqueiro Aço Inox 48 peças",
+            "image": "https://lh3.googleusercontent.com/VqWgzPKFvDF5UPnlXQYAnoJ4jC14ChlSwjCj7rFAehPn6CuN_D0pPyO_t5pzhwGXRf5tdRNMAormhLe56Le8KycrW-Aia8hyxC8xza-G26U=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 572.02,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457973,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Ferro de Passar Roupa",
+            "image": "https://lh3.googleusercontent.com/pdcNppDayuYWH1M7qDWqaAwqx5qp0P8Z3edLNgqINvrP6-215m6Ye1jEI26NCzD2aqqPZ5W9YcIX2n8Eo8Zte8WlW36iT0Xyd0JchNntT07abQ=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 520.02,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471178,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Fondue Elétrico",
+            "image": "https://lh3.googleusercontent.com/0BoTOTihBZwmxZ4IaBbnQbl8a5tMGvTpjCVGOeV5vl5kArHo1SasUCuWGM7KYnsHAsEs-o8Nam-NG0NIIl1Rb4FwbJihR1r6sRLkFD_MqM4L=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 291.11,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458315,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Forno Elétrico",
+            "image": "https://lh3.googleusercontent.com/5efpd9NFuXAPjvhhi1Hs8NpRujssbqNr9fhnKGsGE4w6fzegN6S1ECTJ63-K6hdvq-8PZP11QVfAdpiDEGD70lZkVe6DUUWTR4atypnlhVyd3w=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 1798.23,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457987,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Geladeira Frost Free Inverse",
+            "image": "https://lh3.googleusercontent.com/Ls5hEn3JCgs32E4t4t_1SMvWHnXcI0JAZuHvrtwMYuL6PsjlaDcwOeXcKGgBXa4H-EAwy3En_nyUIttnv1m2ExhC5lvOJi4Qzu-YZLcUDs4=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 4755.75,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465026,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo Americano 12 peças",
+            "image": "https://lh3.googleusercontent.com/63q3omYwnqvtUTKxOvGq23efyNZdM2BmD4fGSPCJUIPxKSWMXLKvuTtNZWzoIRJUSyblzU60vtrkNkE5YoqMJeYcvGuU-E1OLfOH6onxHyZsGw=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 162.25,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554648,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de 6 peças Tramontina",
+            "image": "https://lh3.googleusercontent.com/aMX-Tcxpy5GL2Tc2unSjtAi6GMf1u-pm7TGkUjhf2jJ1h9qQ_-bGjFBQyuVqPdzASJmE1W7WXJZhk4lJo9XoKnIiXaTTMvJOfzSQ7gXH_ayN=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 659.28,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554612,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Cama King Azul",
+            "image": "https://lh3.googleusercontent.com/_Ha7-dYwNu0n1p8kaeZ1yH0B_Lk-B10kMGDGEENAmyN4WuQK-aRc_SQGLfUGiJKkHgIZE7Vt7OHJ4x55R1N9mVyItgHyNlL1vKDlTU0xWYcB=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 551.22,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3554606,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Cama King Branco e Cinza",
+            "image": "https://lh3.googleusercontent.com/QvgWPcqUOTwwodFS-DOo776PQs1_KAdyCRInSAd7o9mZtxWywN2QBQN8eIwdc6x6gCI63Lw7ITxnj973eqQgR9QLXFyyqojIy1B7VaW5az4=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 551.22,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457648,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Copos 350ml 6 unidades",
+            "image": "https://lh3.googleusercontent.com/I92pHkin4oaJS-EbkXCs9m2OQ_4o0siM6piyxoNE0y4hxZls8NuqhUQXd8HjJa1oeXQd-QmvH0aucr4ctvdAl5-mtpk7GPU_fvnfma2Si8s=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 152.16,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3464983,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Panelas Aço Inox",
+            "image": "https://lh3.googleusercontent.com/Too9Ini44rga4hcpWaV49Frf6EOzTzYM1vKVbKU9cQV9SjijCm7pmV6-HpyKMsoNvsVxvoSmo_GhvvkUjjAvpMDnwmmOCdnCKE7wRV8ZQg8o=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 851.79,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471169,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Pratos - 8 peças",
+            "image": "https://lh3.googleusercontent.com/6IepXExErEtbzyhT-CwPsNoFfAOwGNgKSrzwwzrpKqCoX7X2Vs_sr-jYQwuPUI93dVTp3WMeekYAwW5LU642iqC9dUiLgPybLpv0sOElgxhPlA=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 291.21,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471167,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Pratos de Sobremesa - 8 peças",
+            "image": "https://lh3.googleusercontent.com/QAeaVUrMMPnSgvJk4uOYew0L0mochxxX6P6dqzUfsY9qtkRNqJYwThS-sAUt5N0j2-v0G9wiXHf6CgQzpDSle5DBqwdh3feTtKXiPtweGF7VWg=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 155.94,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457549,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Toalha 5 peças 100% Algodão",
+            "image": "https://lh3.googleusercontent.com/HspXhJctSTWN7Xj8iEEEHhEKXMFhU-Twl6w-k9MeGOAws8uix-koYk4fnBhWE196s9y3-WrjEsMjRA90MsvigdN3pkpG5wl6a0yZUX5XtNZpPA=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 248.57,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457538,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Toalha 5 peças Khaki / Marfim 100% Algodão",
+            "image": "https://lh3.googleusercontent.com/QqewUOMgHz0_ttI7Pk_K81N7VbKwKAYMCOVlvPEU-sTQaentFYyhnd9rrHfS9_04ByDPZF9KdBRCmazRcwSE5I46saZt3_gloRQgvXYQCLQ=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 250.65,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465200,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Xícaras",
+            "image": "https://lh3.googleusercontent.com/fynRUPrquS2VPUz9b317M6TqMtxTxSb-lFDPFVD299e7voBin6JdqET9J2UURH6er_XGgP-xBk1mwxpGOosAbAZuYqhtZoUX5uSc0foOG7g=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 161.21,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471161,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Jogo de Xícaras c/ Pires - 8 peças",
+            "image": "https://lh3.googleusercontent.com/OJJwPo2076vWAhiI7rHnZJJRg32wpoGTS88K-8v7j_FfoDZrzN_xtI3ONl1oQIS8TiaxevsmG1YOh8J8gvFIoAp_xA6bTrj5RDTMr8oqjNk=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 193.74,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465065,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Kit 10 Potes de Vidros",
+            "image": "https://lh3.googleusercontent.com/vXflF2Tu4U8lD_QjFycIZS4GuAjITPPvi5zGSPAGhDAE1KniNVMfOuaUhCNCJEYKH1TBQWTU30n1EDqP1UiNt1zWA6DL6tw6tPvcuSB4CJw=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 199.69,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471182,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Kit Vinho - 5 peças",
+            "image": "https://lh3.googleusercontent.com/wOP8kRwL24dWy8fR4e4Sm0ZLvFL9garJxX3PIMt-tVDkE3o5ePDba6yJHWw5qXD7kNsk2_joKMV-aKF5xc_PC2aUYbEoj_p5fNlLvtu3xETD=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 159.02,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458789,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Lava e Seca",
+            "image": "https://lh3.googleusercontent.com/6ouUqt0hKKldi7wR5NEtn5G1V4_NzI9cKY3hIJhCAQMKI0Yk6KUBed_H72kAnnKFowBzxN88eU3BG2Wco8f7y_AQntbmOPRQvG75I43paLR9=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 3848.15,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458780,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Lava Louça",
+            "image": "https://lh3.googleusercontent.com/P7GKtIBMO_a_B7hExrLnh_1APCY4guGjkk09eKu4uxIHzShFuQ3GCMognKp1NIg0irLeclOPdkI8-jd9vzFGO79adOelOyTNcfKMU2HW8twfbA=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 2911.08,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457576,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Lixeira 12l em Aço Inox Tramontina",
+            "image": "https://lh3.googleusercontent.com/CL7Zr1JB3p707Aunl2wXYbYDCo8usL5d9V_ecBNEeP_rQnwndmYBL6NUI0dlLbURtYR-Ohec8veyNXkbJQi95t7k513abasJR9czmqPWjS3B=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 156.01,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3528111,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Manteigueira Francesa",
+            "image": "https://lh3.googleusercontent.com/7vMIszwnMoJorz4hjyCz2mPawmzhVyiPdnCZT4xMQRHCwHWe4WE6E8sDaRJKpNXC82lzJbET9TQEeZmbZ7gIxXVWHdt-4qcv1Vvk9wl1DNcF=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 124.8,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457737,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Micro-ondas",
+            "image": "https://lh3.googleusercontent.com/m0tVA-Qe0k-0yUe05b6tw7k5CLbN4AqiMhknXcIV8gZgtaejGmtZUAQuaK6OtVdVaitC25R1Nxl_MTLOZqvhxf4l0RfZ_Ad8EDdhBFUFGZzoeg=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 728.03,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458329,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Mixer Multifuncional",
+            "image": "https://lh3.googleusercontent.com/00tZIc4xQCdIDEfq4aKkUZw2vAbwjmg8T9GNMkeLGw8DtiW6ErzuYpLj2NZdV07dJz-LC2QxSgvrCraW5YczfYKkVkRMe5vVZzMaql0DOqnq=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 366.09,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3458761,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Multiprocessador",
+            "image": "https://lh3.googleusercontent.com/NU7kug-E2U5booiGf92hu1r-MedqTZ2npnXLS1PTPRM6K6rtTsqywf8zjkRRSwo0e7yBzIHrRaH1xEp7wUB1JrmlVALDYID4RHRkDwkiVQM=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 343.21,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457666,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Panela de Pressão Elétrica 6 litros",
+            "image": "https://lh3.googleusercontent.com/cUzs771FMICo9Wds7ZT8MSVEbixdSyE2CNChUCR6FKktZACoaYlVY8AP0ecqagTcyLz3JYCBOCZgbfD54pk02Fr0hPg_-Lc226wMj3YioTOt=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 601.14,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457682,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Panela de Pressão Tramontina 4,5 litros",
+            "image": "https://lh3.googleusercontent.com/oD5wJesqXk0_tfI2kgy-g8ax_Kji-ZK-UKyJqm97f1iFHFRXvvINYs4c62iqGVVpwAy3OttBcjX63u0-mB4_YSeHg5fihI6uZTR4KrAM8K9m=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 238.17,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471163,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Prato Duplo",
+            "image": "https://lh3.googleusercontent.com/4AUgORYgk4gkzqReEAXeg5Y9y0hzhVeqV0maq5eyQWRnTOcSIXpQvKFpr28bFHrFUBfMLQzFSaMpim26DbLp_2PFdr3bJDEV0thEOgaRkgQ=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 145.61,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471136,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Purificador de Água",
+            "image": "https://lh3.googleusercontent.com/LrD6ZPlD3-pAA35NHdR6fHpJ1VurufiPFZF5Ob__NVzB87N1nRmWyWmOPBJgMxTPNYbRbp3XgacIrY_2CTGt4e3_hnn7kUG8pRGAZ1gldmWa=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 726.99,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457603,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Sanduicheira e Grill",
+            "image": "https://lh3.googleusercontent.com/x-WyEs8mTeD-R94IEqcB2X37Hjeqv6fKCs1kUZ7PVxAw3mTtaEsUqQ-Qr_QY3t_TX1eewu5G2L5_MUog6Sa9I4BHNrMFdneDciStky_mHm_E-w=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 171.61,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471160,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Suporte para Bolo",
+            "image": "https://lh3.googleusercontent.com/qtdPnhFfmxJawx0sW9OSq_OiOiWjBB-SbrhopnHfhLECD0_JfpCKnJ0sVp9jriH9ds2EGbX9BqGOPwoVmc-A3AGOjHTz7kv4CFaEx5nGih4k=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 249.51,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3471131,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Tábua de Corte Bambu",
+            "image": "https://lh3.googleusercontent.com/grj4vJgylq_iBpQgDzl3w_xTt7QwafVVhYjsVkozJ-8UYmta7ae6hXyLv_LByMxC-1OfIe0TPvqVqURPh7tj7noTcYY5y2LlvKQwmDjrxI8=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 176.81,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457655,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Taças 300ml 6 unidades",
+            "image": "https://lh3.googleusercontent.com/vGHeg9fghL2eel16f4f5yxKF1IUVADzZuw_IZFGa7mCIhWqb2TiRvg1XCrDDTFy6-L0iIgkb23qJgrnrq515Njcm3ZE5krlE6MEroEiMngHE=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 145.61,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457736,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Taças de Sobremesa 6 unidades",
+            "image": "https://lh3.googleusercontent.com/hrnOqz18oHFnXGqa4hcliyZPvB1I5LCAMF2epznH-dCytwS6h9MRvriQ8939qnLNlCqFLzQoNkH3G8HQ0YkLNiM_a2XEwXa8bGFBAzXMCPk=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 156.01,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3464862,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Televisão",
+            "image": "https://lh3.googleusercontent.com/wQPA08XJAlI4WZkswLEP6kmWa_51esgSxTzkrIWDfcytDzJeKaUHoUa8q8r5DDcv5wVKTx5BaStSVRQ98K7zXLzUnxlWBRi1z_5OPBAGk46q=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 2288.09,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3465173,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Tigelas de Vidro 3 peças",
+            "image": "https://lh3.googleusercontent.com/3f6Y6iWNZLIaMmoVIs-WTVhd0LGV3LXaLiWpjvxTv6CmpfJ0R9IdWImNGaUHg4M8-brjNYugumrUvmLKPbkElkWOYkYFIUe7GO5jhA-pVugo=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 166.41,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3528088,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Toalha de Mesa",
+            "image": "https://lh3.googleusercontent.com/IgT5Ns1WkoIZDOHLSb4cpJK5_qY7O7w5wPlfeTPP2bYph1UG3FVgBrG66WqgQwCUZRWpUgih-Tk6XJHYARsk73tj5dovam-GNJmfbfG03gbx=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 194.49,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3457964,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Vaporizador Portatil",
+            "image": "https://lh3.googleusercontent.com/RsA0-R2UK81quJs_q7BFAfbHQSJIy6SmgjHwC68enwx9pAoG4_UtYXhB2xQxTbI5E80l1tJQkLMzyCRwbERud-PRbDVmBQaSeJCuIIXeDnGx=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 249.61,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3567670,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Varal de Teto",
+            "image": "https://lh3.googleusercontent.com/gHOhWw4ANJBpXbJCb4zbv-DY5yQMjbf5zYXfsAfT2fkV6nqqVYQC0Cn2xHQ0Ysh1Z-UzqTaovI3OYmX741hOnghZYg-ktVHp9XM4Kf9vUADx=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 393.14,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        },
+        {
+            "id": 3464864,
+            "store_id": 1,
+            "couple_id": 1140479,
+            "category": {
+                "id": 28,
+                "name": "Itens para Casa"
+            },
+            "name": "Ventilador de Teto",
+            "image": "https://lh3.googleusercontent.com/cTE5mzecq6BbZ1o4AMAozUCksgwblG5KNXLLvXDmTFGS2a95r99cpubMa0UmLcAHfJWtwwm8gKsv0ws1VAhrzHfUUDnww94Cl6jAF3Y31NeW=s0",
+            "total_quantity": 1,
+            "remaining_quantity": 1,
+            "price": 541.86,
+            "purchased": false,
+            "rules": {
+                "taxa_convidado": 1,
+                "rates": {
+                    "percent": 3.89,
+                    "taxa_fixa": 0
+                },
+                "discount": {
+                    "boleto": 0.04,
+                    "cartao": 0.04
+                }
+            },
+            "is_quota": false,
+            "variable_value": true,
+            "id_template_store": 523118
+        }
+    ],
+    "categories": [
+        {
+            "id": 28,
+            "name": "Itens para Casa"
+        }
+    ]
+}

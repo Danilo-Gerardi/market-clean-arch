@@ -1,0 +1,22 @@
+.header {
+    display: flex;
+    background-color: rgb(61, 1, 121);
+    height: 60px;
+    width: 100%;
+
+}
+
+.gift-img {
+    scale: 0.9;
+}
+
+.home-menu {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-grow: 1;
+    align-items: center;
+    color: white;
+    list-style: none;   
+}
