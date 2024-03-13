@@ -2,11 +2,12 @@ import { HttpClient } from '@angular/common/http';
 import { catchError, lastValueFrom, map } from 'rxjs';
 import { toProductModel } from '../mappers/product-mapper';
 import { ProductModel } from 'src/app/domain/product/product.model';
+import { ProductRepository } from './get-products.repository';
 
-export class ProductRepositoryImpl {
+export class ProductRepositoryImpl implements ProductRepository {
   constructor(private http: HttpClient) {}
 
-  getProducts(): Promise<ProductModel[]> {
+  async getProducts(): Promise<ProductModel[]> {
     return lastValueFrom(
       this.http.get<any>('../../../assets/mock-api.json').pipe(
         map((data: any) =>

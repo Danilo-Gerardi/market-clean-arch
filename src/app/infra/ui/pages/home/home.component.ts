@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ProductController } from 'src/app/adapters/controllers/products.controller';
+import { ProductModel } from 'src/app/domain/product/product.model';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +8,15 @@ import { ProductController } from 'src/app/adapters/controllers/products.control
   styleUrls: ['./home.component.scss'],
 })
 export class HomeComponent implements OnInit {
+  products!: ProductModel[];
+
   constructor(private controller: ProductController) {}
 
   ngOnInit(): void {
-    this.controller.execute('').then(console.log);
+    this.getProducts();
+  }
+
+  private async getProducts(): Promise<void> {
+    this.products = await this.controller.getProducts();
   }
 }

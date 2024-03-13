@@ -6,7 +6,7 @@ import { ProductRepositoryImpl } from 'src/app/adapters/gateways/get-products-im
 export class GetProductsUseCase {
   constructor(private readonly repository: ProductRepositoryImpl) {}
 
-  async execute(params?: any): Promise<ProductModel[]> {
+  async execute(): Promise<ProductModel[]> {
     return this.repository.getProducts();
   }
 }
