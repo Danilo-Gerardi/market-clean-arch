@@ -1,12 +1,12 @@
+import { ProductRepository } from 'src/app/adapters/gateways/get-products.repository';
+import { ProductModel } from '../product/product.model';
 import { Injectable } from '@angular/core';
-import { Observable, lastValueFrom, of } from 'rxjs';
-import { UseCase } from '../usecase.interface';
+import { ProductRepositoryImpl } from 'src/app/adapters/gateways/get-products-impl.repository';
 
-export class GetProductsUseCase<S, T> {
-  //constructor(private readonly repository: any) {}
+export class GetProductsUseCase {
+  constructor(private readonly repository: ProductRepositoryImpl) {}
 
-  async execute(params?: S): Promise<T> {
-    //return this.repository.getProducts();
-    return lastValueFrom(of('worked' as T));
+  async execute(params?: any): Promise<ProductModel[]> {
+    return this.repository.getProducts();
   }
 }

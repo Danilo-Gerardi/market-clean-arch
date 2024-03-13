@@ -1,4 +1,4 @@
-import { Product } from './../product/product';
+import { Product } from '../product/product.model';
 
 export class Cart {
   private items: Product[] = [];

@@ -1,6 +1,0 @@
-import { Injectable } from '@angular/core';
-import { Observable } from 'rxjs';
-
-export abstract class UseCase<S, T> {
-  abstract execute(params?: S): Observable<T>;
-}
