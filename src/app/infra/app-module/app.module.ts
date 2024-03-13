@@ -8,10 +8,11 @@ import { GetProductsUseCase } from '../../domain/usecases/get-products-usecase';
 import { ProductRepositoryImpl } from 'src/app/adapters/gateways/get-products-impl.repository';
 import { ProductRepository } from 'src/app/adapters/gateways/get-products.repository';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [BrowserModule, AppRoutingModule, HttpClientModule, BrowserAnimationsModule],
   providers: [
     {
       provide: ProductController,
