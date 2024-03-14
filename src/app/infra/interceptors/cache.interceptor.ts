@@ -5,10 +5,10 @@ import {
   HttpRequest,
   HttpResponse,
 } from '@angular/common/http';
-import { Observable, of, tap } from 'rxjs';
+import { Observable, filter, of, tap } from 'rxjs';
 
 export class CacheInterceptor implements HttpInterceptor {
-  private cache = new Map<string, any>();
+  private cache = new Map<string, HttpResponse<any>>();
 
   intercept(
     request: HttpRequest<any>,
@@ -18,22 +18,19 @@ export class CacheInterceptor implements HttpInterceptor {
       return next.handle(request);
     }
 
-    // Check if the response is already in the cache
-    const cachedResponse = this.cache.get(request.url);
+    const cacheKey = request.urlWithParams;
+
+    const cachedResponse = this.cache.get(cacheKey);
+
     if (cachedResponse) {
-      console.log('Returning cached response');
-      console.log(cachedResponse);
-      console.log(request);
-      console.log('-------------------------------------------------');
-      console.log('-------------------------------------------------');
       return of(cachedResponse);
     }
 
-    // If not in the cache, make the request and cache the response
     return next.handle(request).pipe(
-      tap((event) => {
-        if (event instanceof HttpResponse) {
-          this.cache.set(request.url, event);
+      filter((event) => event instanceof HttpResponse && event.status === 200),
+      tap((response) => {
+        if (response instanceof HttpResponse) {
+          this.cache.set(request.url, response);
         }
       })
     );
