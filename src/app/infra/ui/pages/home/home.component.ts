@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
     this.getProducts();
   }
 
-  private async getProducts(): Promise<void> {
+  async getProducts(): Promise<void> {
     this.products = await this.controller.getProducts();
   }
 }

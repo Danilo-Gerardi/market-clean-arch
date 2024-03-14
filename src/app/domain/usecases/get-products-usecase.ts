@@ -1,7 +1,5 @@
-import { ProductRepository } from 'src/app/adapters/gateways/get-products.repository';
+import { ProductRepositoryImpl } from 'src/app/infra/services/get-products-impl.repository';
 import { ProductModel } from '../product/product.model';
-import { Injectable } from '@angular/core';
-import { ProductRepositoryImpl } from 'src/app/adapters/gateways/get-products-impl.repository';
 
 export class GetProductsUseCase {
   constructor(private readonly repository: ProductRepositoryImpl) {}
