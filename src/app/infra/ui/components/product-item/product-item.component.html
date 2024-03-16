@@ -1,11 +1,32 @@
 <mat-card class="prod-item-mat-card">
-  <mat-card-content>
-    <mat-card-title mat-card-title>{{ product.name }}</mat-card-title>
+  <mat-card-content class="prod-item-card-content">
+    <section class="prod-item-section">
+      <mat-card-title class="prod-item-title" mat-card-title>{{
+        product.name
+      }}</mat-card-title>
 
-    <img mat-card-image class="img" src="{{ product.image }}" alt="" />
+      <img
+        mat-card-image
+        [class.mat-elevation-z1]="true"
+        class="img"
+        src="{{ product.image }}"
+        alt=""
+      />
 
-    <mat-card-actions>
-      <button mat-button>comprar</button>
+      <div class="prod-item-price">{{ product.price | formatToReal }}</div>
+    </section>
+
+    <mat-card-actions class="prod-item-buttons">
+      <button id="buy-btn" mat-raised-button color="primary">comprar</button>
+      <button id="cart-btn" mat-icon-button>
+        <mat-icon>
+          <img
+            class="prod-item-cart-icon"
+            src="../../../../../assets/cart.svg"
+            alt=""
+          />
+        </mat-icon>
+      </button>
     </mat-card-actions>
   </mat-card-content>
 </mat-card>
