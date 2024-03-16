@@ -17,7 +17,14 @@
     </section>
 
     <mat-card-actions class="prod-item-buttons">
-      <button id="buy-btn" mat-raised-button color="primary">comprar</button>
+      <button
+        id="buy-btn"
+        mat-raised-button
+        color="primary"
+        [routerLink]="['/purchase/product', productId]"
+      >
+        comprar
+      </button>
       <button id="cart-btn" mat-icon-button>
         <mat-icon>
           <img

@@ -1,6 +1,7 @@
 <section class="prod-item-section">
   <app-product-item
-    *ngFor="let product of products"
+    *ngFor="let product of products; index as i"
     [product]="product"
+    [productId]="i"
   ></app-product-item>
 </section>

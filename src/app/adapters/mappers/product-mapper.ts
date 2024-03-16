@@ -3,6 +3,7 @@ import { Product } from '../interfaces/products-response';
 
 export function toProductModel(p: Product): ProductModel {
   return {
+    id: '1',
     name: p.name,
     price: p.price,
     image: p.image,
