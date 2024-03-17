@@ -1,8 +1,19 @@
-.home-main {
+.home-section {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   background-color: #f8f6f0;
-  height: 100vh;
   flex-grow: 1;
+}
+
+.main-layout-section {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.view-port-size {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
