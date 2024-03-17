@@ -17,6 +17,10 @@ export class HomeComponent implements OnInit {
   }
 
   async getProducts(): Promise<void> {
-    this.products = await this.controller.getProducts();
+    try {
+      this.products = await this.controller.getProducts();
+    } catch (error) {
+      console.log('error fetching data');
+    }
   }
 }

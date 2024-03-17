@@ -6,14 +6,10 @@ import { GetProductsUseCase } from '../../domain/usecases/get-products-usecase';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import {
-  HTTP_INTERCEPTORS,
-  HttpClient,
-  HttpClientModule,
-} from '@angular/common/http';
+import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { ProductRepository } from 'src/app/adapters/gateways/get-products.repository';
-import { CacheInterceptor } from '../interceptors/cache.interceptor';
+import { ProductsService } from '../http-state/products.service';
 import { ProductRepositoryImpl } from '../services/get-products-impl.repository';
 
 @NgModule({
@@ -27,24 +23,23 @@ import { ProductRepositoryImpl } from '../services/get-products-impl.repository'
   providers: [
     {
       provide: ProductController,
-      useClass: ProductController,
       deps: [GetProductsUseCase],
     },
     {
       provide: GetProductsUseCase,
-      useClass: GetProductsUseCase,
       deps: [ProductRepository],
     },
     {
       provide: ProductRepository,
       useClass: ProductRepositoryImpl,
-      deps: [HttpClient],
+      deps: [HttpClient, ProductsService],
     },
-    {
-      provide: HTTP_INTERCEPTORS,
-      useClass: CacheInterceptor,
-      multi: true,
-    },
+    // {
+    //   provide: HTTP_INTERCEPTORS,
+    //   useClass: CacheInterceptor,
+    //   multi: true,
+    // },
+    ProductsService,
   ],
   bootstrap: [AppComponent],
 })
