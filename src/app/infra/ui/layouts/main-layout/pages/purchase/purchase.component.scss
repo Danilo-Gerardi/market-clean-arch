@@ -1,0 +1,19 @@
+.main-purchase {
+  display: flex;
+  flex-direction: column;
+}
+
+.purchase-mat-card {
+  display: flex;
+  margin-top: 20px;
+  flex-grow: 1;
+  margin: auto;
+  width: 60%;
+}
+
+.purchase-image {
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+}

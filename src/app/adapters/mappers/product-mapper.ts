@@ -3,7 +3,6 @@ import { v4 as uuidv4 } from 'uuid';
 import { Product } from '../interfaces/products-response';
 
 export function toProductModel(p: Product): ProductModel {
-  console.log('aqui');
   return {
     id: uuidv4(),
     name: p.name,
