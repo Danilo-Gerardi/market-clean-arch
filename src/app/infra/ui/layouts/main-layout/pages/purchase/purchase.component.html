@@ -1,14 +1,28 @@
-<main class="main-purchase">
-  <section class="test">
-    <mat-card class="purchase-mat-card" *ngIf="product">
-      <mat-card-content class="purchase-mat-card-content">
-        <mat-card-title>
+<main class="purchase-main">
+  <mat-card class="purchase-mat-card" *ngIf="product">
+    <mat-card-content class="purchase-mat-card-content">
+      <mat-card-title class="purchase-product-name">
+        <h1>
           {{ product.name }}
-        </mat-card-title>
-        <div class="purchase-image" [class.mat-elevation-z2]="true">
-          <img src="{{ product.image }}" alt="product" />
-        </div>
-      </mat-card-content>
-    </mat-card>
-  </section>
+        </h1>
+      </mat-card-title>
+      <img
+        class="product-img purchase-product-img"
+        src="{{ product.image }}"
+        mat-card-image
+        [class.mat-elevation-z2]="true"
+      />
+      <h1>{{ product.price | formatToReal }}</h1>
+      <mat-card-actions>
+        <button
+          id="buy-btn"
+          class="purchase-buy-btn"
+          mat-raised-button
+          color="primary"
+        >
+          <h2>comprar</h2>
+        </button>
+      </mat-card-actions>
+    </mat-card-content>
+  </mat-card>
 </main>
