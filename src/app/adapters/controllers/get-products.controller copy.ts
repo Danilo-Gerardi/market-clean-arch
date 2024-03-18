@@ -1,8 +1,7 @@
-import { Injectable } from '@angular/core';
 import { ProductModel } from 'src/app/domain/product/product.model';
-import { GetProductsUseCase } from 'src/app/domain/usecases/get-products-usecase';
+import { GetProductsUseCase } from 'src/app/domain/usecases/get-products-usecase copy';
 
-export class ProductController {
+export class GetProductsController {
   constructor(private useCase: GetProductsUseCase) {}
 
   async getProducts(): Promise<ProductModel[]> {

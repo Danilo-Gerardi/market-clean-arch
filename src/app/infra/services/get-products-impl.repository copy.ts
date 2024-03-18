@@ -1,14 +1,14 @@
 import { HttpClient } from '@angular/common/http';
 import { catchError, lastValueFrom, map } from 'rxjs';
+import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository copy';
 import { ProductModel } from 'src/app/domain/product/product.model';
-import { ProductRepository } from '../../adapters/gateways/get-products.repository';
 import { toProductModel } from '../../adapters/mappers/product-mapper';
-import { ProductsService } from '../http-state/products.service';
+import { GetProductsService } from '../http-state/products.service';
 
-export class ProductRepositoryImpl implements ProductRepository {
+export class GetProductsRepositoryImpl implements GetProductsRepository {
   constructor(
     private http: HttpClient,
-    private productsService: ProductsService
+    private productsService: GetProductsService
   ) {}
 
   async getProducts(): Promise<ProductModel[]> {

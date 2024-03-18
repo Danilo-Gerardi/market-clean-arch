@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductController } from 'src/app/adapters/controllers/products.controller';
+import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller copy';
 import { ProductModel } from 'src/app/domain/product/product.model';
 
 @Component({
@@ -10,7 +10,7 @@ import { ProductModel } from 'src/app/domain/product/product.model';
 export class HomeComponent implements OnInit {
   products!: ProductModel[];
 
-  constructor(private controller: ProductController) {}
+  constructor(private controller: GetProductsController) {}
 
   ngOnInit(): void {
     this.getProducts();

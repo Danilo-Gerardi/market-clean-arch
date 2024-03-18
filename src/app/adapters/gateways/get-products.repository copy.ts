@@ -1,5 +1,5 @@
 import { ProductModel } from 'src/app/domain/product/product.model';
 
-export abstract class ProductRepository {
+export abstract class GetProductsRepository {
   abstract getProducts(): Promise<ProductModel[]>;
 }

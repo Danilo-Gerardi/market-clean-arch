@@ -1,8 +1,8 @@
-import { ProductRepositoryImpl } from 'src/app/infra/services/get-products-impl.repository';
+import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository copy';
 import { ProductModel } from '../product/product.model';
 
 export class GetProductsUseCase {
-  constructor(private readonly repository: ProductRepositoryImpl) {}
+  constructor(private readonly repository: GetProductsRepository) {}
 
   async execute(): Promise<ProductModel[]> {
     return this.repository.getProducts();

@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
-import { ProductController } from 'src/app/adapters/controllers/products.controller';
+import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller copy';
+
 import { ProductModel } from 'src/app/domain/product/product.model';
 
 @Component({
@@ -12,7 +13,7 @@ export class PurchaseComponent implements OnInit {
   product!: ProductModel;
 
   constructor(
-    private controller: ProductController,
+    private controller: GetProductsController,
     private activatedRoute: ActivatedRoute
   ) {}
 
