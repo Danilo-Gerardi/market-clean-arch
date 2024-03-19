@@ -7,15 +7,16 @@ import { AppComponent } from './app.component';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller copy';
-
-import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository copy';
-
-import { GetProductsUseCase } from 'src/app/domain/usecases/get-products-usecase copy';
 import { GetProductsService } from '../http-state/products.service';
 
+import { BuyProductsController } from 'src/app/adapters/controllers/buy-products.controller';
+import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
+import { BuyProductsRepository } from 'src/app/adapters/gateways/buy-products.repository';
+import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository';
 import { BuyProductsUseCase } from 'src/app/domain/usecases/buy-products-usecase';
-import { GetProductsRepositoryImpl } from '../services/get-products-impl.repository copy';
+import { GetProductsUseCase } from 'src/app/domain/usecases/get-products-usecase';
+import { BuyProductsRepositoryImpl } from '../services/buy-products-impl.repository';
+import { GetProductsRepositoryImpl } from '../services/get-products-impl.repository';
 
 @NgModule({
   declarations: [AppComponent],
@@ -40,17 +41,17 @@ import { GetProductsRepositoryImpl } from '../services/get-products-impl.reposit
       deps: [HttpClient, GetProductsService],
     },
     {
-      provide: GetProductsController,
+      provide: BuyProductsController,
       deps: [BuyProductsUseCase],
     },
     {
       provide: BuyProductsUseCase,
-      deps: [GetProductsRepository],
+      deps: [BuyProductsRepository],
     },
     {
-      provide: GetProductsRepository,
-      useClass: GetProductsRepositoryImpl,
-      deps: [HttpClient, GetProductsService],
+      provide: BuyProductsRepository,
+      useClass: BuyProductsRepositoryImpl,
+      deps: [HttpClient],
     },
     GetProductsService,
   ],

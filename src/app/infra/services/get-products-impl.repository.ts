@@ -1,6 +1,6 @@
 import { HttpClient } from '@angular/common/http';
 import { catchError, lastValueFrom, map } from 'rxjs';
-import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository copy';
+import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository';
 import { ProductModel } from 'src/app/domain/product/product.model';
 import { toProductModel } from '../../adapters/mappers/product-mapper';
 import { GetProductsService } from '../http-state/products.service';

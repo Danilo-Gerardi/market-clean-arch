@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller copy';
+import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
+
 import { ProductModel } from 'src/app/domain/product/product.model';
 
 @Component({

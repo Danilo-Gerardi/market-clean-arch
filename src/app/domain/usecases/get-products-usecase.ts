@@ -1,4 +1,4 @@
-import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository copy';
+import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository';
 import { ProductModel } from '../product/product.model';
 
 export class GetProductsUseCase {

@@ -13,16 +13,28 @@
         [class.mat-elevation-z2]="true"
       />
       <h1>{{ product.price | formatToReal }}</h1>
-      <mat-card-actions>
+      <mat-card-actions *ngIf="!spinner && !isProductBought">
         <button
           id="buy-btn"
           class="purchase-buy-btn"
           mat-raised-button
           color="primary"
+          (click)="buyProduct()"
         >
           <h2>comprar</h2>
         </button>
       </mat-card-actions>
     </mat-card-content>
+
+    <div class="purchase-spinner" *ngIf="spinner && !isProductBought">
+      <mat-progress-spinner
+        mode="indeterminate"
+        diameter="50"
+      ></mat-progress-spinner>
+    </div>
+
+    <h3 *ngIf="!spinner && isProductBought" class="purchase-success-msg">
+      Compra realizada com sucesso!
+    </h3>
   </mat-card>
 </main>

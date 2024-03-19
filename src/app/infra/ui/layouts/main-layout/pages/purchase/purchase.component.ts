@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
-import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller copy';
+import { BuyProductsController } from 'src/app/adapters/controllers/buy-products.controller';
+import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
+import { ProductToBuy } from 'src/app/domain/product/product-to-buy.interface';
 
 import { ProductModel } from 'src/app/domain/product/product.model';
 
@@ -11,9 +13,12 @@ import { ProductModel } from 'src/app/domain/product/product.model';
 })
 export class PurchaseComponent implements OnInit {
   product!: ProductModel;
+  spinner = false;
+  isProductBought = false;
 
   constructor(
     private controller: GetProductsController,
+    private buyProductsController: BuyProductsController,
     private activatedRoute: ActivatedRoute
   ) {}
 
@@ -35,6 +40,27 @@ export class PurchaseComponent implements OnInit {
       }
     } catch (error) {
       console.log('error fetching data');
+    }
+  }
+
+  async buyProduct(): Promise<void> {
+    this.spinner = true;
+
+    try {
+      const x = await this.buyProductsController.buyProducts([
+        {
+          productId: 1,
+          quantity: 1,
+        },
+      ] as ProductToBuy[]);
+
+      console.log(x);
+
+      this.isProductBought = true;
+    } catch (error) {
+      console.log('error buying product');
+    } finally {
+      this.spinner = false;
     }
   }
 

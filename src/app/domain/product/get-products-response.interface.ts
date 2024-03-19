@@ -1,4 +1,4 @@
-export interface ProductsPayloadResponse {
+export interface GetProductsPayloadResponse {
   store: any;
   pagination: any;
   products: Product[];
