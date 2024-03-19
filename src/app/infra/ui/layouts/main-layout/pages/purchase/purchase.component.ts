@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
 import { BuyProductsController } from 'src/app/adapters/controllers/buy-products.controller';
@@ -19,10 +20,12 @@ export class PurchaseComponent implements OnInit {
   constructor(
     private controller: GetProductsController,
     private buyProductsController: BuyProductsController,
-    private activatedRoute: ActivatedRoute
+    private activatedRoute: ActivatedRoute,
+    private viewportScroller: ViewportScroller
   ) {}
 
   ngOnInit(): void {
+    this.viewportScroller.scrollToPosition([0, 0]);
     this.getProducts();
   }
 
