@@ -65,6 +65,10 @@ body {
 $purple: #3d0179;
 $dark-green: #0e771c;
 
+#cart-btn {
+  border: 1px $purple solid;
+}
+
 #buy-btn {
   background-color: $purple;
 

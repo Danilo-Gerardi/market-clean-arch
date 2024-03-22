@@ -1,3 +1,4 @@
+import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
 
@@ -11,9 +12,13 @@ import { ProductModel } from 'src/app/domain/product/product.model';
 export class HomeComponent implements OnInit {
   products!: ProductModel[];
 
-  constructor(private controller: GetProductsController) {}
+  constructor(
+    private controller: GetProductsController,
+    private viewportScroller: ViewportScroller
+  ) {}
 
   ngOnInit(): void {
+    this.viewportScroller.scrollToPosition([0, 0]);
     this.getProducts();
   }
 

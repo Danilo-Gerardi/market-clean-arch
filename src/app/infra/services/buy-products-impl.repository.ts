@@ -13,7 +13,6 @@ export class BuyProductsRepositoryImpl implements BuyProductsRepository {
     productsToBuy: ProductToBuy[]
   ): Promise<PayloadResponse<void>> {
     if (productsToBuy && productsToBuy.length > 0 && this.statusCode === 200) {
-      console.log('aqui');
       return lastValueFrom(
         of({
           message: 'Products bought successfully',

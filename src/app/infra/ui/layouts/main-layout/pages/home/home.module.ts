@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 import { ProductItemComponent } from '../../../../components/product-item/product-item.component';
 import { HomeRoutingModule } from './home-routing.module';
 
-import { SharedModule } from '../../../../shared/shared/shared.module';
+import { SharedModule } from '../../../../shared/shared.module';
 import { HomeComponent } from './home.component';
 
 @NgModule({

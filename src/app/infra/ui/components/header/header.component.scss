@@ -20,3 +20,30 @@
   color: white;
   list-style: none;
 }
+
+.header-section-cart-btn {
+  margin: auto;
+  padding-right: 10px;
+  display: grid;
+  grid-template-columns: 58px;
+  grid-template-rows: 32px;
+}
+
+.header-cart-btn {
+  justify-self: end;
+  border: 1px white solid;
+}
+
+.header-svg-cart {
+  background-color: white;
+}
+
+.header-badge {
+  color: white;
+  background-color: rgb(212, 42, 0);
+  width: 20px;
+  border-radius: 12px;
+  padding: 2px 2px 2px 2px;
+  z-index: 1;
+  text-align: center;
+}
