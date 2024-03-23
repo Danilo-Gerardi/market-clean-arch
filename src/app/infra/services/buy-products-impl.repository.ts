@@ -1,8 +1,8 @@
+import { BuyProductsRepository } from '@adapters/gateways/buy-products.repository';
 import { HttpClient } from '@angular/common/http';
 import { delay, lastValueFrom, of } from 'rxjs';
 import { PayloadResponse } from 'src/app/adapters/interfaces/payload-response.interface';
 import { ProductToBuy } from 'src/app/domain/product/product-to-buy.interface';
-import { BuyProductsRepository } from '../../adapters/gateways/buy-products.repository';
 
 export class BuyProductsRepositoryImpl implements BuyProductsRepository {
   statusCode = 200;

@@ -1,9 +1,9 @@
 import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
+import { ProductToBuy } from '@domain/product/product-to-buy.interface';
 import { BuyProductsController } from 'src/app/adapters/controllers/buy-products.controller';
 import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
-import { ProductToBuy } from 'src/app/domain/product/product-to-buy.interface';
 
 import { ProductModel } from 'src/app/domain/product/product.model';
 

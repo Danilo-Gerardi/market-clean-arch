@@ -19,11 +19,18 @@
     "target": "ES2022",
     "module": "ES2022",
     "useDefineForClassFields": false,
-    "lib": [
-      "ES2022",
-      "dom"
-    ]
+    "paths": {
+      "assets/*": ["assets/*"],
+      "@components/*": ["./src/app/infra/ui/components/*"],
+      "@domain/*": ["./src/app/domain/*"],
+      "@adapters/*": ["./src/app/adapters/*"],
+      "@shared/*": ["./src/app/infra/ui/shared"],
+      "@styles/*": ["styles/*"]
+    },
+    "lib": ["ES2022", "dom"]
   },
+  "include": ["next-env.d.ts", "twin.d.ts", "**/*.ts", "**/*.tsx"],
+  "exclude": ["node_modules"],
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,

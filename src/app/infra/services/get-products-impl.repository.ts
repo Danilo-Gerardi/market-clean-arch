@@ -1,8 +1,10 @@
 import { HttpClient } from '@angular/common/http';
+
 import { catchError, lastValueFrom, map } from 'rxjs';
-import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository';
-import { ProductModel } from 'src/app/domain/product/product.model';
-import { toProductModel } from '../../adapters/mappers/product-mapper';
+
+import { GetProductsRepository } from '@adapters/gateways/get-products.repository';
+import { toProductModel } from '@adapters/mappers/product-mapper';
+import { ProductModel } from '@domain/product/product.model';
 import { GetProductsService } from '../http-state/products.service';
 
 export class GetProductsRepositoryImpl implements GetProductsRepository {
@@ -19,7 +21,7 @@ export class GetProductsRepositoryImpl implements GetProductsRepository {
     }
 
     return lastValueFrom(
-      this.http.get<any>('../../../assets/mock-api.json').pipe(
+      this.http.get<any>('assets/mock-api.json').pipe(
         map((data: any) => {
           const d = data.products.map((data: any) => toProductModel(data));
 
