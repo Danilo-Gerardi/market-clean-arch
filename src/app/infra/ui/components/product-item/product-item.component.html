@@ -25,8 +25,13 @@
       >
         comprar
       </button>
-      <button id="cart-btn" mat-icon-button>
-        <img src="assets/cart.svg" alt="" />
+      <button
+        [disabled]="true"
+        (click)="addToCart(product)"
+        id="cart-btn-disabled"
+        mat-icon-button
+      >
+        <app-cart-icon [color]="cartIconColor"></app-cart-icon>
       </button>
     </mat-card-actions>
   </mat-card-content>

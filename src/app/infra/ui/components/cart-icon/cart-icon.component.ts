@@ -3,6 +3,7 @@ import { Component, Input } from '@angular/core';
 export enum Colors {
   PURPLE = '#3d0179',
   WHITE = '#ffffff',
+  DISABLED = 'gray',
 }
 
 @Component({

@@ -15,6 +15,7 @@ import { BuyProductsRepository } from 'src/app/adapters/gateways/buy-products.re
 import { GetProductsRepository } from 'src/app/adapters/gateways/get-products.repository';
 import { BuyProductsUseCase } from 'src/app/domain/usecases/buy-products-usecase';
 import { GetProductsUseCase } from 'src/app/domain/usecases/get-products-usecase';
+import { CartState } from '../global-state/cart/cart-state.service';
 import { BuyProductsRepositoryImpl } from '../services/buy-products-impl.repository';
 import { GetProductsRepositoryImpl } from '../services/get-products-impl.repository';
 
@@ -54,6 +55,7 @@ import { GetProductsRepositoryImpl } from '../services/get-products-impl.reposit
       deps: [HttpClient],
     },
     GetProductsService,
+    CartState,
   ],
   bootstrap: [AppComponent],
 })

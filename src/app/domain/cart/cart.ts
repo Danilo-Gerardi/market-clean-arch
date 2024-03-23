@@ -2,15 +2,24 @@ import { ProductModel } from '../product/product.model';
 
 export class Cart {
   private items: ProductModel[] = [];
+  private static instance: Cart;
 
-  constructor() {}
+  private constructor() {}
+
+  static getInstance() {
+    return this.instance ?? new Cart();
+  }
 
   addItem(product: ProductModel): void {
-    this.items.push(product);
+    if (!this.checkExists(product.id)) {
+      this.items.push(product);
+    }
   }
 
   removeItem(productId: string): void {
-    this.items.filter((product) => product.id !== productId);
+    if (this.checkExists(productId)) {
+      this.items.filter((product) => product.id !== productId);
+    }
   }
 
   seeItems(): ProductModel[] {
@@ -24,4 +33,8 @@ export class Cart {
   resetCartState(): void {} //usecase
 
   emptyCart(): void {}
+
+  private checkExists(productId: string): boolean {
+    return this.items.some((p) => p.id === productId);
+  }
 }

@@ -69,6 +69,10 @@ $dark-green: #0e771c;
   border: 1px $purple solid;
 }
 
+#cart-btn-disabled {
+  border: 1px gray solid;
+}
+
 #buy-btn {
   background-color: $purple;
 
