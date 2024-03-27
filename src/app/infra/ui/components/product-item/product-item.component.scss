@@ -1,3 +1,11 @@
+#cart-btn-disabled {
+  border: 1px gray solid;
+}
+
+#cart-btn {
+  border: 1px #3d0179 solid;
+}
+
 .prod-item-mat-card {
   @extend .prod-item-card-content;
   background-color: white;

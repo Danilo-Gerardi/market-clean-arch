@@ -1,6 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Colors } from '@components/cart-icon/cart-icon.component';
-import { Cart } from '@domain/cart/cart';
 import { ProductModel } from 'src/app/domain/product/product.model';
 import { CartState } from 'src/app/infra/global-state/cart/cart-state.service';
 
@@ -11,17 +10,43 @@ import { CartState } from 'src/app/infra/global-state/cart/cart-state.service';
 })
 export class ProductItemComponent implements OnInit {
   @Input() product!: ProductModel;
-  cart!: Cart;
-  cartIconColor!: Colors;
 
-  constructor(private cartState: CartState) {
-    this.cart = cartState.cart;
+  addedToCart = false;
+
+  cartButtonState!: {
+    cssId: string;
+    disabled: boolean;
+    color: Colors;
+  };
+
+  constructor(private cartState: CartState) {}
+
+  ngOnInit(): void {
+    this.setCartButtonState();
   }
 
-  ngOnInit(): void {}
-
   addToCart(product: ProductModel): void {
-    this.cart.addItem(product);
-    this.cartIconColor = Colors.DISABLED;
+    this.cartState.cart.addItem(product);
+    this.disableCartButton();
+  }
+
+  private setCartButtonState(): void {
+    if (this.cartState.cart.isItemInTheCart(this.product.id)) {
+      this.disableCartButton();
+    } else {
+      this.cartButtonState = {
+        cssId: 'cart-btn',
+        disabled: false,
+        color: Colors.PURPLE,
+      };
+    }
+  }
+
+  private disableCartButton(): void {
+    this.cartButtonState = {
+      cssId: 'cart-btn-disabled',
+      disabled: true,
+      color: Colors.DISABLED,
+    };
   }
 }

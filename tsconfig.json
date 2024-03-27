@@ -25,7 +25,7 @@
       "@domain/*": ["./src/app/domain/*"],
       "@adapters/*": ["./src/app/adapters/*"],
       "@shared/*": ["./src/app/infra/ui/shared"],
-      "@styles/*": ["styles/*"]
+      "@styles": ["./src/styles"]
     },
     "lib": ["ES2022", "dom"]
   },

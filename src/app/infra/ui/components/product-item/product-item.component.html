@@ -26,12 +26,12 @@
         comprar
       </button>
       <button
-        [disabled]="true"
-        (click)="addToCart(product)"
-        id="cart-btn-disabled"
+        [disabled]="cartButtonState.disabled"
+        [id]="cartButtonState.cssId"
         mat-icon-button
+        (click)="addToCart(product)"
       >
-        <app-cart-icon [color]="cartIconColor"></app-cart-icon>
+        <app-cart-icon [color]="cartButtonState.color"></app-cart-icon>
       </button>
     </mat-card-actions>
   </mat-card-content>

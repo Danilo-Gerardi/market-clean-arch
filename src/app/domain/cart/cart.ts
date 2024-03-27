@@ -11,13 +11,13 @@ export class Cart {
   }
 
   addItem(product: ProductModel): void {
-    if (!this.checkExists(product.id)) {
+    if (!this.isItemInTheCart(product.id)) {
       this.items.push(product);
     }
   }
 
   removeItem(productId: string): void {
-    if (this.checkExists(productId)) {
+    if (this.isItemInTheCart(productId)) {
       this.items.filter((product) => product.id !== productId);
     }
   }
@@ -34,7 +34,7 @@ export class Cart {
 
   emptyCart(): void {}
 
-  private checkExists(productId: string): boolean {
+  isItemInTheCart(productId: string): boolean {
     return this.items.some((p) => p.id === productId);
   }
 }
