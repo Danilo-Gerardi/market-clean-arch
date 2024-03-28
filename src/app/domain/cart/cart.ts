@@ -1,7 +1,7 @@
 import { ProductModel } from '../product/product.model';
 
 export class Cart {
-  private items: ProductModel[] = [];
+  items: ProductModel[] = [];
   private static instance: Cart;
 
   private constructor() {}
@@ -20,10 +20,6 @@ export class Cart {
     if (this.isItemInTheCart(productId)) {
       this.items.filter((product) => product.id !== productId);
     }
-  }
-
-  seeItems(): ProductModel[] {
-    return this.items;
   }
 
   buyProducts(): void {} //usecase

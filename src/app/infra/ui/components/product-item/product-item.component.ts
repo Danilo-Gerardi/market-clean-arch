@@ -27,6 +27,8 @@ export class ProductItemComponent implements OnInit {
 
   addToCart(product: ProductModel): void {
     this.cartState.cart.addItem(product);
+    this.cartState.$cartItems.next(this.cartState.cart.items);
+
     this.disableCartButton();
   }
 

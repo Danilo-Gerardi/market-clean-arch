@@ -10,6 +10,8 @@
     <button class="header-cart-btn" mat-icon-button>
       <app-cart-icon [color]="cartIconColor"></app-cart-icon>
     </button>
-    <div class="header-badge">99</div>
+    <div class="header-badge">
+      {{ itemsCount | async }}
+    </div>
   </section>
 </nav>

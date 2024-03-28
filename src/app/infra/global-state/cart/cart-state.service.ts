@@ -1,7 +1,9 @@
 import { Cart } from '@domain/cart/cart';
+import { BehaviorSubject } from 'rxjs';
+import { ProductModel } from './../../../domain/product/product.model';
 
 export class CartState {
   public readonly cart = Cart.getInstance();
 
-  //private $cart = new BehaviorSubject<Cart>(Cart.getInstance());
+  $cartItems = new BehaviorSubject<ProductModel[]>(this.cart.items);
 }
