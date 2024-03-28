@@ -1,0 +1,28 @@
+<main class="main">
+  <mat-card *ngFor="let item of cartItems | async">
+    <mat-card-content>
+      <div class="img-container">
+        <img
+          mat-card-image
+          [class.mat-elevation-z1]="true"
+          class="product-img"
+          src="{{ item.image }}"
+          alt=""
+        />
+      </div>
+
+      <section>
+        <div>
+          <h2>{{ item.name }}</h2>
+          <h3>{{ item.price | formatToReal }}</h3>
+        </div>
+
+        <div id="hist-buy-btn">
+          <button id="buy-btn" mat-raised-button color="primary">
+            comprar
+          </button>
+        </div>
+      </section>
+    </mat-card-content>
+  </mat-card>
+</main>

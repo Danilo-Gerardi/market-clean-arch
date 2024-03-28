@@ -20,6 +20,13 @@ const routes: Routes = [
             (m) => m.PurchaseModule
           ),
       },
+      {
+        path: 'purchase-history',
+        loadChildren: () =>
+          import('../pages/purchase-history/purchase-history.module').then(
+            (m) => m.PurchaseHistoryModule
+          ),
+      },
     ],
   },
 ];

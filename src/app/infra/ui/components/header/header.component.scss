@@ -19,6 +19,10 @@
   align-items: center;
   color: white;
   list-style: none;
+
+  li {
+    cursor: pointer;
+  }
 }
 
 .header-section-cart-btn {
