@@ -13,7 +13,13 @@ export class HeaderComponent {
 
   itemsCount!: Observable<number>;
 
+  disableCartBtn = true;
+
   constructor(private cartState: CartState) {
     this.itemsCount = this.cartState.$cartItems.pipe(map((d) => d.length));
+
+    this.itemsCount.subscribe((c) =>
+      c === 0 ? (this.disableCartBtn = true) : (this.disableCartBtn = false)
+    );
   }
 }
