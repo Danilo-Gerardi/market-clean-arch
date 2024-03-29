@@ -2,7 +2,7 @@
   <img class="gift-img" src="assets/gift-box.svg" alt="gift" />
   <ul class="home-menu">
     <li routerLink="home">
-      <h4>Presentes</h4>
+      <h4 class="transparent-caret">Presentes</h4>
     </li>
   </ul>
 
@@ -15,7 +15,7 @@
     >
       <app-cart-icon [color]="cartIconColor"></app-cart-icon>
     </button>
-    <div class="header-badge">
+    <div class="header-badge transparent-caret">
       {{ itemsCount | async }}
     </div>
   </section>

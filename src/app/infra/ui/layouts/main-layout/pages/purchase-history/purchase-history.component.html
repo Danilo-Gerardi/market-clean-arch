@@ -18,6 +18,10 @@
         </div>
 
         <div id="hist-buy-btn">
+          <app-remove-from-cart-btn
+            (removeItem)="removeItem(item.id)"
+          ></app-remove-from-cart-btn>
+
           <button id="buy-btn" mat-raised-button color="primary">
             comprar
           </button>

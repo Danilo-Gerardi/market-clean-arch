@@ -28,8 +28,6 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## fazer um pedido (comprar um presente)
 
-## ver pedidos
-
 ## ver histórico de pedidos
 
 ## exibir produtos

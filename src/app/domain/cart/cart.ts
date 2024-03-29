@@ -18,19 +18,13 @@ export class Cart {
 
   removeItem(productId: string): void {
     if (this.isItemInTheCart(productId)) {
-      this.items.filter((product) => product.id !== productId);
+      this.items = this.items.filter((product) => product.id !== productId);
     }
   }
-
-  buyProducts(): void {} //usecase
-
-  persistCartState(): void {} //usecase
-
-  resetCartState(): void {} //usecase
-
-  emptyCart(): void {}
 
   isItemInTheCart(productId: string): boolean {
     return this.items.some((p) => p.id === productId);
   }
+
+  emptyCart(): void {}
 }

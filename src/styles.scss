@@ -83,3 +83,7 @@ $dark-green: #0e771c;
 .mat-mdc-progress-spinner .mdc-circular-progress__indeterminate-circle-graphic {
   stroke: $purple !important;
 }
+
+.transparent-caret {
+  caret-color: transparent;
+}

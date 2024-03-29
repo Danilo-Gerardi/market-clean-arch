@@ -1,0 +1,8 @@
+<button
+  [disabled]="!isItemInTheCart"
+  (click)="removeItemFromCart()"
+  mat-raised-button
+  color="primary"
+>
+  {{ text }}
+</button>
