@@ -1,5 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { Colors } from '@components/cart-icon/cart-icon.component';
+import * as CryptoJS from 'crypto-js';
 import { ProductModel } from 'src/app/domain/product/product.model';
 import { CartState } from 'src/app/infra/global-state/cart/cart-state.service';
 
@@ -10,6 +11,7 @@ import { CartState } from 'src/app/infra/global-state/cart/cart-state.service';
 })
 export class ProductItemComponent implements OnInit {
   @Input() product!: ProductModel;
+  encryptedId!: string;
 
   addedToCart = false;
 
@@ -22,6 +24,11 @@ export class ProductItemComponent implements OnInit {
   constructor(private cartState: CartState) {}
 
   ngOnInit(): void {
+    this.encryptedId = CryptoJS.AES.encrypt(
+      this.product.id,
+      'productId'
+    ).toString();
+
     this.setCartButtonState();
   }
 

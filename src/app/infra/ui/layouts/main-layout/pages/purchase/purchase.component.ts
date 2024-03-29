@@ -2,6 +2,7 @@ import { ViewportScroller } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, UrlSegment } from '@angular/router';
 import { ProductToBuy } from '@domain/product/product-to-buy.interface';
+import * as CryptoJS from 'crypto-js';
 import { BuyProductsController } from 'src/app/adapters/controllers/buy-products.controller';
 import { GetProductsController } from 'src/app/adapters/controllers/get-products.controller';
 
@@ -50,14 +51,12 @@ export class PurchaseComponent implements OnInit {
     this.spinner = true;
 
     try {
-      const x = await this.buyProductsController.buyProducts([
+      await this.buyProductsController.buyProducts([
         {
           productId: 1,
           quantity: 1,
         },
       ] as ProductToBuy[]);
-
-      console.log(x);
 
       this.isProductBought = true;
     } catch (error) {
@@ -74,6 +73,6 @@ export class PurchaseComponent implements OnInit {
       (data: UrlSegment[]) => (id = data[1].path)
     );
 
-    return id;
+    return CryptoJS.AES.decrypt(id, 'productId').toString(CryptoJS.enc.Utf8);
   }
 }
