@@ -1,27 +1,32 @@
 import { Cart } from '@domain/cart/cart';
+import { CartStateInterface } from '@domain/cart/cart-state.interface';
 import { BehaviorSubject } from 'rxjs';
 import { ProductModel } from './../../../domain/product/product.model';
 
-export class CartState {
+export class CartState implements CartStateInterface {
   public readonly cart = Cart.getInstance();
 
   $cartItems = new BehaviorSubject<ProductModel[]>(this.cart.items);
 
+  getCartItems() {
+    return this.$cartItems;
+  }
+
   addItem(product: ProductModel) {
     this.cart.addItem(product);
-    this.nxt();
+    this.updateCart();
   }
 
   removeItem(id: string) {
     this.cart.removeItem(id);
-    this.nxt();
+    this.updateCart();
   }
 
   isItemInTheCart(id: string): boolean {
     return this.cart.isItemInTheCart(id);
   }
 
-  private nxt() {
+  private updateCart() {
     this.$cartItems.next(this.cart.items);
   }
 }

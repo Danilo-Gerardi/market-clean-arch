@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
+import { CartStateInterface } from '@domain/cart/cart-state.interface';
+import { ProductModel } from '@domain/product/product.model';
 import { Observable, map } from 'rxjs';
-import { CartState } from 'src/app/infra/global-state/cart/cart-state.service';
 import { Colors } from '../cart-icon/cart-icon.component';
 
 @Component({
@@ -15,8 +16,10 @@ export class HeaderComponent {
 
   disableCartBtn = true;
 
-  constructor(private cartState: CartState) {
-    this.itemsCount = this.cartState.$cartItems.pipe(map((d) => d.length));
+  constructor(private cartState: CartStateInterface) {
+    this.itemsCount = this.cartState
+      .getCartItems()
+      .pipe(map((d: ProductModel[]) => d.length));
 
     this.itemsCount.subscribe((c) =>
       c === 0 ? (this.disableCartBtn = true) : (this.disableCartBtn = false)

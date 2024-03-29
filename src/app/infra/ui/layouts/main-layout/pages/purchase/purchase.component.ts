@@ -53,7 +53,7 @@ export class PurchaseComponent implements OnInit {
     try {
       await this.buyProductsController.buyProducts([
         {
-          productId: 1,
+          productId: this.product.id,
           quantity: 1,
         },
       ] as ProductToBuy[]);

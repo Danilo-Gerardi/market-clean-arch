@@ -22,7 +22,12 @@
             (removeItem)="removeItem(item.id)"
           ></app-remove-from-cart-btn>
 
-          <button id="buy-btn" mat-raised-button color="primary">
+          <button
+            [routerLink]="['/purchase/product', encryptId(item.id)]"
+            id="buy-btn"
+            mat-raised-button
+            color="primary"
+          >
             comprar
           </button>
         </div>

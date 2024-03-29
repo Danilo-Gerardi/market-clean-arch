@@ -4,9 +4,10 @@ import {
   Component,
   OnDestroy,
 } from '@angular/core';
+import { CartStateInterface } from '@domain/cart/cart-state.interface';
 import { ProductModel } from '@domain/product/product.model';
+import * as CryptoJS from 'crypto-js';
 import { BehaviorSubject } from 'rxjs';
-import { CartState } from './../../../../../global-state/cart/cart-state.service';
 
 @Component({
   selector: 'app-purchase-history',
@@ -16,8 +17,11 @@ import { CartState } from './../../../../../global-state/cart/cart-state.service
 export class PurchaseHistoryComponent implements OnDestroy, AfterViewInit {
   cartItems!: BehaviorSubject<ProductModel[]>;
 
-  constructor(private cartState: CartState, private cdr: ChangeDetectorRef) {
-    this.cartItems = this.cartState.$cartItems;
+  constructor(
+    private cartState: CartStateInterface,
+    private cdr: ChangeDetectorRef
+  ) {
+    this.cartItems = this.cartState.getCartItems();
   }
 
   ngAfterViewInit(): void {
@@ -34,5 +38,10 @@ export class PurchaseHistoryComponent implements OnDestroy, AfterViewInit {
 
   isItemInTheCart(id: string): boolean {
     return this.cartState.isItemInTheCart(id);
+  }
+
+  encryptId(id: string): string {
+    console.log('encrypted');
+    return CryptoJS.AES.encrypt(id, 'productId').toString();
   }
 }

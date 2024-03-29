@@ -26,5 +26,7 @@ export class Cart {
     return this.items.some((p) => p.id === productId);
   }
 
-  emptyCart(): void {}
+  emptyCart(): void {
+    this.items = [];
+  }
 }

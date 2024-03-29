@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { CartStateInterface } from './../../domain/cart/cart-state.interface';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -54,8 +55,11 @@ import { GetProductsRepositoryImpl } from '../services/get-products-impl.reposit
       useClass: BuyProductsRepositoryImpl,
       deps: [HttpClient],
     },
+    {
+      provide: CartStateInterface,
+      useClass: CartState,
+    },
     GetProductsService,
-    CartState,
   ],
   bootstrap: [AppComponent],
 })

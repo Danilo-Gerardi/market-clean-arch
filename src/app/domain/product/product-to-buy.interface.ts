@@ -1,4 +1,4 @@
 export interface ProductToBuy {
-  productId: number;
+  productId: string;
   quantity: number;
 }
