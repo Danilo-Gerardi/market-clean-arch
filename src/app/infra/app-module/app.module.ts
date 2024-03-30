@@ -48,7 +48,7 @@ import { GetProductsRepositoryImpl } from '../services/get-products-impl.reposit
     },
     {
       provide: BuyProductsUseCase,
-      deps: [BuyProductsRepository],
+      deps: [BuyProductsRepository, CartStateInterface],
     },
     {
       provide: BuyProductsRepository,

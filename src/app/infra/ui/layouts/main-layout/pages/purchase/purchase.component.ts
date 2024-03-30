@@ -60,6 +60,7 @@ export class PurchaseComponent implements OnInit {
 
       this.isProductBought = true;
     } catch (error) {
+      console.log(error);
       console.log('error buying product');
     } finally {
       this.spinner = false;

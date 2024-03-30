@@ -17,7 +17,7 @@ export class CartState implements CartStateInterface {
     this.updateCart();
   }
 
-  removeItem(id: string) {
+  removeItem(id: string): void {
     this.cart.removeItem(id);
     this.updateCart();
   }

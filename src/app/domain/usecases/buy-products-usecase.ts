@@ -1,6 +1,7 @@
 import { BuyProductsRepository } from '@adapters/gateways/buy-products.repository';
 import { CartStateInterface } from '@domain/cart/cart-state.interface';
 import { ProductToBuy } from '../product/product-to-buy.interface';
+import { PayloadResponse } from './../../adapters/interfaces/payload-response.interface';
 
 export class BuyProductsUseCase {
   constructor(
@@ -8,13 +9,15 @@ export class BuyProductsUseCase {
     private readonly cartStateInterface: CartStateInterface
   ) {}
 
-  async execute(productsToBuy: ProductToBuy[]): Promise<void> {
+  async execute(productsToBuy: ProductToBuy[]): Promise<PayloadResponse<void>> {
     const res = await this.repository.buyProducts(productsToBuy);
-
+    console.log(res);
     if (res.httpStatus === 200) {
       productsToBuy.forEach((p) =>
         this.cartStateInterface.removeItem(p.productId)
       );
     }
+
+    return res;
   }
 }
