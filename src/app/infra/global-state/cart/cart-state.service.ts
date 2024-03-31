@@ -26,6 +26,11 @@ export class CartState implements CartStateInterface {
     return this.cart.isItemInTheCart(id);
   }
 
+  emptyCart(): void {
+    this.cart.emptyCart();
+    this.updateCart();
+  }
+
   private updateCart() {
     this.$cartItems.next(this.cart.items);
   }

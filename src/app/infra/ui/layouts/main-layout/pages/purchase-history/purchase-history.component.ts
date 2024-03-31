@@ -8,6 +8,7 @@ import { CartStateInterface } from '@domain/cart/cart-state.interface';
 import { ProductModel } from '@domain/product/product.model';
 import * as CryptoJS from 'crypto-js';
 import { BehaviorSubject } from 'rxjs';
+import { EmptyCartBtnService } from 'src/app/infra/global-state/empty-cart-btn/empty-cart-btn.service';
 
 @Component({
   selector: 'app-purchase-history',
@@ -19,7 +20,8 @@ export class PurchaseHistoryComponent implements OnDestroy, AfterViewInit {
 
   constructor(
     private cartState: CartStateInterface,
-    private cdr: ChangeDetectorRef
+    private cdr: ChangeDetectorRef,
+    private emptyCartBtnService: EmptyCartBtnService
   ) {
     this.cartItems = this.cartState.getCartItems();
   }
@@ -38,6 +40,11 @@ export class PurchaseHistoryComponent implements OnDestroy, AfterViewInit {
 
   isItemInTheCart(id: string): boolean {
     return this.cartState.isItemInTheCart(id);
+  }
+
+  emptyCart(): void {
+    this.cartState.emptyCart();
+    this.emptyCartBtnService.$emptyCartBtn.next(false);
   }
 
   encryptId(id: string): string {

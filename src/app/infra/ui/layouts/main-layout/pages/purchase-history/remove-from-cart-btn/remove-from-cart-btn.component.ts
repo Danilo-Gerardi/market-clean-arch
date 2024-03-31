@@ -2,22 +2,36 @@ import {
   ChangeDetectorRef,
   Component,
   EventEmitter,
+  OnInit,
   Output,
 } from '@angular/core';
+import { EmptyCartBtnService } from 'src/app/infra/global-state/empty-cart-btn/empty-cart-btn.service';
 
 @Component({
   selector: 'app-remove-from-cart-btn',
   templateUrl: './remove-from-cart-btn.component.html',
   styleUrls: ['./remove-from-cart-btn.component.scss'],
 })
-export class RemoveFromCartBtnComponent {
+export class RemoveFromCartBtnComponent implements OnInit {
   @Output() removeItem = new EventEmitter<void>();
 
-  isItemInTheCart = true;
+  text = 'remover do carrinho';
 
-  text = 'tirar do carrinho';
+  isItemInTheCart!: boolean;
 
-  constructor(private cd: ChangeDetectorRef) {}
+  constructor(
+    private cd: ChangeDetectorRef,
+    private emptyCartBtnService: EmptyCartBtnService
+  ) {}
+
+  ngOnInit() {
+    this.emptyCartBtnService.$emptyCartBtn.subscribe((data) => {
+      this.isItemInTheCart = data;
+      this.cd.detectChanges();
+    });
+
+    this.isItemInTheCart = true;
+  }
 
   removeItemFromCart() {
     this.removeItem.emit();

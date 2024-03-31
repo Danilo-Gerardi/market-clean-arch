@@ -9,4 +9,6 @@ export abstract class CartStateInterface {
   abstract removeItem(id: string): void;
 
   abstract isItemInTheCart(id: string): boolean;
+
+  abstract emptyCart(): void;
 }

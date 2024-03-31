@@ -1,4 +1,9 @@
 <main class="main">
+  <div class="empty-card-btn">
+    <button (click)="emptyCart()" mat-raised-button color="primary">
+      esvaziar carrinho
+    </button>
+  </div>
   <mat-card *ngFor="let item of cartItems | async">
     <mat-card-content>
       <div class="img-container">
