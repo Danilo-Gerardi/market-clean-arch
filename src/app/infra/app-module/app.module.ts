@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-import { CartStateInterface } from './../../domain/cart/cart-state.interface';
+import { CartStateInterface } from '@domain/cart/cart-state.interface';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';

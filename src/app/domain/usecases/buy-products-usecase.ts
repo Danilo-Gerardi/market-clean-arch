@@ -1,7 +1,7 @@
 import { BuyProductsRepository } from '@adapters/gateways/buy-products.repository';
+import { PayloadResponse } from '@adapters/interfaces/payload-response.interface';
 import { CartStateInterface } from '@domain/cart/cart-state.interface';
 import { ProductToBuy } from '../product/product-to-buy.interface';
-import { PayloadResponse } from './../../adapters/interfaces/payload-response.interface';
 
 export class BuyProductsUseCase {
   constructor(

@@ -1,7 +1,7 @@
 import { Cart } from '@domain/cart/cart';
 import { CartStateInterface } from '@domain/cart/cart-state.interface';
+import { ProductModel } from '@domain/product/product.model';
 import { BehaviorSubject } from 'rxjs';
-import { ProductModel } from './../../../domain/product/product.model';
 
 export class CartState implements CartStateInterface {
   public readonly cart = Cart.getInstance();
