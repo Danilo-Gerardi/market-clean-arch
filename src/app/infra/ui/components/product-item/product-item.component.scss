@@ -1,9 +1,11 @@
+@import "../../../../../styles/variables.scss";
+
 #cart-btn-disabled {
   border: 1px gray solid;
 }
 
 #cart-btn {
-  border: 1px #3d0179 solid;
+  border: 1px $purple solid;
 }
 
 .prod-item-mat-card {
